@@ -1,0 +1,88 @@
+﻿
+/*  Navigation
+-------------------------------------------------------------*/
+div.nav-Title
+{
+    border-bottom: 1px solid black;
+    color: White;
+}
+
+div.nav-header
+{
+}
+
+div.nav-header ul li a
+{   
+    color: White;    
+}
+
+
+div.nav-header ul li a:Hover
+{
+}
+
+div.nav-header ul li a.active
+{
+     background-color: #c10000;
+}
+
+
+/* Color Pattern for Collapsable Divs
+-------------------------------------------------------------------------*/
+
+div.col-container
+{
+    -webkit-box-shadow: rgba(0,0,0,.3) 1px 1px 3px;  
+}
+
+div.col-title
+{
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c2c0c0), to(#b5b4b4));
+    color: #575757;
+    border-top: 1px solid #b5b4b4;
+    border-bottom: #555858;
+}
+
+.expand-body
+{
+    background-color: White;
+    background-image: url(images/Expand-black.html);    
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+div.col-description
+{ 
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#e5e5e5), color-stop(.6,#FFFFFF));
+    text-shadow: rgba(255,255,255,.8) 0 1px 0;    
+    color: #444;    
+    border-top: 1px solid rgba(255,255,255,.2);    
+}
+
+/* Article
+-------------------------------------------------------------------------*/
+div.article-title
+{
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#c2c0c0), to(#b5b4b4));
+    color: #575757;
+    border-top: 1px solid #b5b4b4;
+    border-bottom: #555858;
+}
+
+div.article-body
+{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#e5e5e5), color-stop(.6,#FFFFFF));
+    text-shadow: rgba(255,255,255,.8) 0 1px 0;    
+    color: #444;    
+    border-top: 1px solid rgba(255,255,255,.2);     
+}
+
+/* Color Pattern For Google Maps
+------------------------------------------------------------------------*/
+div.map-direction
+{
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#e5e5e5), color-stop(.6,#FFFFFF));
+    text-shadow: rgba(255,255,255,.8) 0 1px 0;    
+    color: #444;    
+    border-top: 1px solid rgba(255,255,255,.2);     
+}
